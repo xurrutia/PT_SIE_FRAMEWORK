@@ -1,12 +1,12 @@
 V 14
 6
-LANG:10010 0 
 LANG:10001 0 
 LANG:10000 0 
+LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 
 LANG:10004 0 
-PANEL,-1 -1 225 50 N "background2" 0
+PANEL,-1 -1 225 50 N "color-1" 0
 "main()
 {
    // firstTime=true;
@@ -117,9 +117,9 @@ E E "main(bool enter) {
 
 0
 6
-LANG:10010 0 
 LANG:10001 0 
 LANG:10000 0 
+LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 
 LANG:10004 0 

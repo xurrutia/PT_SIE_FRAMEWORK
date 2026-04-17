@@ -2,15 +2,15 @@
 <panel version="14">
  <properties>
   <prop name="Name">
-   <prop name="es_ES.utf8"></prop>
-   <prop name="en_US.utf8"></prop>
    <prop name="de_AT.utf8"></prop>
+   <prop name="en_US.utf8"></prop>
+   <prop name="es_ES.utf8"></prop>
    <prop name="fr_FR.utf8"></prop>
    <prop name="tr_TR.utf8"></prop>
    <prop name="zh_CN.utf8"></prop>
   </prop>
   <prop name="Size">200 31</prop>
-  <prop name="BackColor">{31,31,31}</prop>
+  <prop name="BackColor">color-2</prop>
   <prop name="RefPoint">0 0</prop>
   <prop name="InitAndTermRef">True</prop>
   <prop name="SendClick">False</prop>
@@ -20,7 +20,7 @@
   <prop name="layoutType">None</prop>
  </properties>
  <events>
-  <script isEscaped="1" name="Initialize"><![CDATA[#uses &quot;classes/ContextMenu/ContextMenuCustom&quot;
+  <script name="Initialize" isEscaped="1"><![CDATA[#uses &quot;classes/ContextMenu/ContextMenuCustom&quot;
 
 main()
 {

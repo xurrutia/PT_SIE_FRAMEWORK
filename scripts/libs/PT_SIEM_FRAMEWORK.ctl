@@ -49,27 +49,29 @@ synchronized PT_SIEM_addNaviButton(string id, string parentId/*,shared_ptr<GUINa
     ddsNavibuttonsPerScreen[iScreennumber] = makeDynString();
   }
 
+  int iNewLayoutRow;
   if (parentId == "1")
   {
     bParentNode = true;
     bSubNode = false;
+    iNewLayoutRow = 1;
   }
 
   else if (parentId == "0")
   {
     bParentNode = false;
     bSubNode = false;
+    iNewLayoutRow = 1;
   }
   else
   {
     bParentNode = false;
     bSubNode = true;
+    iNewLayoutRow = dynContains(ddsNavibuttonsPerScreen[iScreennumber], parentId) + 1;
   }
 
-  int iNewLayoutRow = dynContains(ddsNavibuttonsPerScreen[iScreennumber], parentId) + 1;
-//perhaps +1 s require
 
-  //DebugTN("whenaddingthesymbol", moduleName, panelName, "navi_btn_" + id);
+  DebugTN(moduleName, panelName, id, iNewLayoutRow);
   addSymbol(moduleName, panelName, "objects/side_menu_buttons/generic.pnl", "navi_btn_" + id,
             iNewLayoutRow, moduleName + "." + panelName + ":" + "LAYOUT_GROUP1",
             makeDynString("$nodeId:" + id, "$bParentNode:" + bParentNode, "$bSubNode:" + bSubNode));

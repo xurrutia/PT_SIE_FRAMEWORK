@@ -1,25 +1,25 @@
 V 14
 6
-LANG:10010 0 
 LANG:10001 0 
 LANG:10000 0 
+LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 
 LANG:10004 0 
-PANEL,-1 -1 354 50 N "background2" 0
+PANEL,-1 -1 249 50 N "color-1" 0
 "main()
 {
-  languageButton.SetText(getCatStr(\"SIE\", \"buttonNavi_language\"));
+  exitButton.SetText(getCatStr(\"SIE\", \"buttonNavi_exit\"));
 }
 " 0
  E E E E 1 -1 -1 0  0 0
 ""0  1
 E "#uses \"classes/GUI/GUINaviButton\"
-#uses \"classes/GUI/GUINaviLanguageButton\"
-shared_ptr<GUINaviButton> languageButton = new GUINaviLanguageButton(getShape(\"textRef\"), getShape(\"iconRef\"), getShape(\"frameSelector\"));
+#uses \"classes/GUI/GUINaviExitButton\"
+shared_ptr<GUINaviButton> exitButton = new GUINaviExitButton(getShape(\"textRef\"), getShape(\"iconRef\"), getShape(\"frameSelector\"));
 
 public shared_ptr<GUINaviButton> GetGUINaviButton(){
-  return languageButton;
+  return exitButton;
 }
 " 0
  4
@@ -43,26 +43,25 @@ LAYER, 0
  E E
 4 0 0 0 0 0
 E E "main(bool enter) {
-  languageButton.SetHoverColor(enter);
+  exitButton.SetHoverColor(enter);
 }
 " 0
 
 0
 6
-LANG:10010 0 
 LANG:10001 0 
 LANG:10000 0 
+LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 
 LANG:10004 0 
 
-4
-"sizePolicy" "Expanding Preferred"
+3
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "0"
 E "main(mapping event) {
-  languageButton.Clicked();
+  exitButton.Clicked();
 }
 " 0
  0 1 3 2 1 E U  1 E 10 15 360 130
@@ -93,7 +92,7 @@ LAYER, 7
 "maximumSize" "48 48"
 "layoutAlignment" "AlignLeft|AlignLeading"
 "" ""
-"IX/objects_parts/icons/side_menu/language.pnl" 55 45 T 1 1 0 1 -20 0
+"IX/objects_parts/icons/side_menu/exit.pnl" 55 45 T 1 1 0 1 -20 0
 0
 3 3 "textRef" 4
 "minimumSize" "0 48"

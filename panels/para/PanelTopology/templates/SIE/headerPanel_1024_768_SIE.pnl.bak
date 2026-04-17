@@ -1,0 +1,337 @@
+V 14
+6
+LANG:10010 0 
+LANG:10001 0 
+LANG:10000 0 
+LANG:10009 0 
+LANG:10007 0 
+LANG:10004 0 
+PANEL,-1 -1 1923 53 N "color-2" 0
+"main()
+{
+  if (moduleShowFullScreen(myModuleName()) == 0)
+    {
+      minPanel.visible(TRUE);
+      minPanel2.visible(TRUE);
+      maxPanel.visible(FALSE);
+    }
+    else
+    {
+      minPanel.visible(FALSE);
+      minPanel2.visible(FALSE);
+      maxPanel.visible(TRUE);
+    }
+}
+" 0
+ E E E E 1 -1 -1 0  0 0
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+"pdpi" "108.888"
+2 1 0 0 0 0 1 50
+""
+NC
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+0
+6 2
+"RECTANGLE2"
+""
+1 5 0 E E E 1 E 1 E N "_Transparent" E N "background2" E E
+ E E
+2 0 0 0 0 0
+E E E
+0
+6
+LANG:10010 0 
+LANG:10001 0 
+LANG:10000 0 
+LANG:10009 0 
+LANG:10007 0 
+LANG:10004 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E -1 1 3 2 1 E 4.738271604938272 0 1.175 -23.69135802469136 0 1 E 5 0 410 40
+32 3
+"SPACER1"
+""
+1 435 20 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+3 0 0 0 0 0
+E E E
+0
+6
+LANG:10010 0 
+LANG:10001 0 
+LANG:10000 0 
+LANG:10009 0 
+LANG:10007 0 
+LANG:10004 0 
+
+3
+"transparentForMouse" ""
+"sizePolicy" "Expanding Ignored"
+"layoutAlignment" "AlignNone"
+ 435 20 640 35 1
+15 4
+"CLOCK1"
+""
+1 210 15 E E E 1 E 1 E N "WF_Head" E N "_Transparent" E E
+ E E
+4 0 0 0 0 0
+E E E
+0
+4
+LANG:10010 0 
+LANG:10001 0 
+LANG:10000 0 
+LANG:10027 0 
+
+2
+"sizePolicy" "Preferred Preferred"
+"layoutAlignment" "AlignLeft|AlignLeading"
+4
+LANG:10010 45 Courier New,-1,12,5,400,0,0,0,0,0,0,0,0,0,0,1
+LANG:10001 45 Courier New,-1,12,5,400,0,0,0,0,0,0,0,0,0,0,1
+LANG:10000 32 Courier New,-1,12,5,50,0,0,0,0,0
+LANG:10027 32 Courier New,-1,12,5,50,0,0,0,0,0
+0  210 15.119140625 374 36
+E 1 1 "%X" "%x"
+1 1 1 1
+4
+LANG:10010 49 Segoe UI,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1,Normal
+LANG:10001 49 Segoe UI,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1,Normal
+LANG:10000 26 Arial,-1,13,5,75,0,0,0,0,0
+LANG:10027 26 Arial,-1,13,5,75,0,0,0,0,0
+0  4
+LANG:10010 49 Segoe UI,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1,Normal
+LANG:10001 49 Segoe UI,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1,Normal
+LANG:10000 26 Arial,-1,13,5,75,0,0,0,0,0
+LANG:10027 26 Arial,-1,13,5,75,0,0,0,0,0
+0 
+6 5
+"RECTANGLE467"
+""
+1 115 117 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+5 0 0 0 0 0
+E E E
+0
+1
+LANG:10001 0 
+
+4
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E -1 1 3 2 1 E 1.294273671971514 0 0.9782608695652174 -138.8414722767241 -109.4565217391304 2  1 0  "pictures/ingeteam.png" 4294967295 E 115 117 254 157
+4 6
+"LINE13"
+""
+1 1845 25.47282608695675 E E E 1 E 1 E N "foreground" E N {255,255,255} E E
+ E E
+6 0 0 0 0 0
+E E E
+0
+3
+LANG:10010 15 MINIMIZAR PANEL
+LANG:10001 14 MINIMIZE PANEL
+LANG:10018 0 
+
+4
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignCenter"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E "main()
+{
+  int i;
+  i = moduleMinimize(myModuleName());
+}" 0
+ 0 2 3 2 1 E  1845 25.47282608695675 1854 25.47282608695675
+2 7
+"PRIMITIVE_TEXT798"
+""
+1 1905 16.9728260869567 E E E 1 E 1 E N "foreground" E N "_Transparent" E E
+ E E
+7 0 0 0 0 0
+E E E
+0
+2
+LANG:10010 18 CERRAR APLICACIÓN
+LANG:10001 17 CLOSE APPLICATION
+
+5
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E "main(mapping event)
+{
+  msc_createFav(getUserName(), \"lastScreenView\");
+  STD_CloseUis();
+}" 0
+ 0 2 2 0 1 E U  1 E 1895 16.9728260869567 1905 34
+0 2 2 "0s" 0 0 0 194 0 0  1905 16.9728260869567 1
+2
+LANG:10010 56 MS Shell Dlg 2,-1,15,5,700,0,0,0,0,0,0,0,0,0,0,1,Negrita
+LANG:10001 56 MS Shell Dlg 2,-1,15,5,700,0,0,0,0,0,0,0,0,0,0,1,Negrita
+0 2
+LANG:10010 1 X
+LANG:10001 1 X
+6 8
+"minPanel2"
+""
+1 1175 5 E E E 1 E 0 E N "foreground" E N "_Transparent" E E
+ E E
+8 0 0 0 0 0
+E E E
+0
+3
+LANG:10010 23 MINIMIZAR TAMAÑO PANEL
+LANG:10001 14 MIXIMIZE PANEL
+LANG:10018 0 
+
+4
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignCenter"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E "main()
+{
+  // 1. Obtenemos el path del módulo actual.
+  // Si estás en un sub-módulo, el path será algo como \"MóduloPrincipal.SubModulo\"
+  string sPath = getPath(myModuleName());
+
+  // 2. Extraemos la primera parte (el Módulo Raíz)
+  dyn_string ds = sPath.split(\".\");
+  string sModuloPadre = ds[1];
+
+  // 3. Restauramos el padre
+  int i = moduleRestore(sModuloPadre);
+
+  // 4. Tus cambios visuales
+  maxPanel.visible(TRUE);
+  minPanel.visible(FALSE);
+  minPanel2.visible(FALSE);
+
+  // OPCIONAL: Debug para que veas el nombre en la consola
+   DebugN(\"Mi módulo:\", myModuleName(), \"Módulo Padre detectado:\", sModuloPadre);
+}
+" 0
+ 0 1 2 0 1 E 0.6428571428571429 0 0.6428571428571429 1115.928571428571 17.54425465838532 1 E 1175 5 1189 19
+6 9
+"minPanel"
+""
+1 1175 5 E E E 1 E 0 E N "foreground" E N "ING_General_Fondo2" E E
+ E E
+9 0 0 0 0 0
+E E E
+0
+3
+LANG:10010 17 MINIMIZAR TAMAÑO
+LANG:10001 14 MIXIMIZE PANEL
+LANG:10018 0 
+
+4
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignCenter"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E "main()
+{
+  // 1. Obtenemos el path del módulo actual.
+  // Si estás en un sub-módulo, el path será algo como \"MóduloPrincipal.SubModulo\"
+  string sPath = getPath(myModuleName());
+
+  // 2. Extraemos la primera parte (el Módulo Raíz)
+  dyn_string ds = sPath.split(\".\");
+  string sModuloPadre = ds[1];
+
+  // 3. Restauramos el padre
+  int i = moduleRestore(sModuloPadre);
+
+  // 4. Tus cambios visuales
+  maxPanel.visible(TRUE);
+  minPanel.visible(FALSE);
+  minPanel2.visible(FALSE);
+
+  // OPCIONAL: Debug para que veas el nombre en la consola
+   DebugN(\"Mi módulo:\", myModuleName(), \"Módulo Padre detectado:\", sModuloPadre);
+}
+" 0
+ 0 1 2 0 1 E 0.6428571428571429 0 0.6428571428571429 1113.928571428571 19.68711180124246 1 E 1175 5 1189 19
+6 10
+"maxPanel"
+""
+1 1175 5 E E E 1 E 0 E N "foreground" E N "_Transparent" E E
+ E E
+10 0 0 0 0 0
+E E E
+0
+3
+LANG:10010 17 MAXIMIZAR TAMAÑO
+LANG:10001 14 MIXIMIZE PANEL
+LANG:10018 0 
+
+4
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignCenter"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E "main()
+{
+  int i;
+  i = moduleShowFullScreen(myModuleName());
+  minPanel.visible(TRUE);
+  minPanel2.visible(TRUE);
+  maxPanel.visible(FALSE);
+}
+" 0
+ 0 2 2 0 1 E 0.7857142857142859 0 0.7857142857142859 945.960317460317 16.81925465838532 1 E 1175 5 1189 19
+0
+LAYER, 1 
+0
+0
+LAYER, 2 
+0
+0
+LAYER, 3 
+0
+0
+LAYER, 4 
+0
+0
+LAYER, 5 
+0
+0
+LAYER, 6 
+0
+0
+LAYER, 7 
+0
+0
+1 1 "SHAPE_GROUP1" 0
+5 0 
+6 7 8 9 10 
+
+"layoutAlignment" "AlignVCenter"
+"" ""
+4 0 "LAYOUT_GROUP1" -1
+4 1 
+2 5 4 3 
+1 
+"S 5" "0 0 1 1"
+"S 4" "1 0 1 1"
+"S 3" "2 0 1 1"
+"G 1" "3 0 1 1"
+"" ""
+1 1 1 25 20 5 5 1 20
+0
